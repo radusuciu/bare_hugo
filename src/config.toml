@@ -1,0 +1,20 @@
+title = "Bare"
+baseURL = "https://example.com"
+languageCode = "en-us"
+disableKinds = ["taxonomy", "taxonomyTerms", "RSS", "sitemap", "robotsTXT", "404"]
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+sectionPagesMenu = "main"
+enableGitInfo = true
+
+[params]
+    description = "Hugo Bare"
+    authorName = "Radu Suciu"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    title = "Home"
+    url = "/"
+    weight = -110
